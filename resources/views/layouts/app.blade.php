@@ -29,7 +29,7 @@
         <script src="{{ URL::to('assets/js/toastr_jquery.min.js') }}"></script>
         <script src="{{ URL::to('assets/js/toastr.min.js') }}"></script>
     </head>
-    <body class="account-page error-page">
+    <body class="account-page error-page" style="background: #ccc;">
         <style>    
             .invalid-feedback{
                 font-size: 14px;

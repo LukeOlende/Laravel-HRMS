@@ -4,10 +4,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-	<meta name="description" content="SoengSouy Admin Template">
-	<meta name="keywords" content="admin, estimates, bootstrap, business, corporate, creative, management, minimal, modern, accounts, invoice, html5, responsive, CRM, Projects">
-	<meta name="author" content="SoengSouy Admin Template">
-	<meta name="robots" content="noindex, nofollow">
 	<title>Dashboard - HRMS</title>
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="{{ URL::to('assets/img/favicon.png') }}">
@@ -93,20 +89,6 @@
 					</div>
 				</li>
 				<!-- /Search -->
-
-				<!-- Flag -->
-				<li class="nav-item dropdown has-arrow flag-nav">
-					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">
-						<img src="{{ URL::to('assets/img/flags/us.png') }}" alt="" height="20"> <span>English</span>
-					</a>
-					<div class="dropdown-menu dropdown-menu-right">
-						<a href="javascript:void(0);" class="dropdown-item">
-						<img src="{{ URL::to('assets/img/flags/us.png') }}" alt="" height="16"> English </a>
-						<a href="javascript:void(0);" class="dropdown-item">
-						<img src="{{ URL::to('assets/img/flags/kh.png') }}" alt="" height="16"> Khmer </a>
-					</div>
-				</li>
-				<!-- /Flag -->
 
 				<!-- Notifications -->
 				<li class="nav-item dropdown">
