@@ -11,7 +11,7 @@
                         <h3 class="page-title">User Management</h3>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item"><a href="{{ route('home') }}">Dashboard</a></li>
-                            <li class="breadcrumb-item active">User</li>
+                            <li class="breadcrumb-item active">All Users</li>
                         </ul>
                     </div>
                     <div class="col-auto float-right ml-auto">

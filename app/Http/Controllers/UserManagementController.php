@@ -369,7 +369,7 @@ class UserManagementController extends Controller
     // view change password
     public function changePasswordView()
     {
-        return view('settings.changepassword');
+        return view('usermanagement.change_password');
     }
     
     // change password in db
@@ -384,7 +384,7 @@ class UserManagementController extends Controller
         User::find(auth()->user()->id)->update(['password'=> Hash::make($request->new_password)]);
         DB::commit();
         Toastr::success('User change successfully :)','Success');
-        return redirect()->intended('home');
+        return redirect()->route('home');
     }
 }
 

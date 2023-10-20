@@ -1869,9 +1869,9 @@ table.dataTable thead > tr > td.sorting {
 	padding-right: 15px;
 }
 .dash-widget-icon {
-	background-color: rgba(244, 59, 72, 0.2);
+	background-color: rgba(19, 126, 57, 0.2);
 	border-radius: 100%;
-	color: #f43b48;
+	color: rgb(8, 65, 91);
 	display: inline-block;
 	float: left;
 	font-size: 30px;
